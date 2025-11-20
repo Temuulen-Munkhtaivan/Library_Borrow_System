@@ -45,7 +45,7 @@ public class LibraryDataStore {
         
         if(!removed){
             throw new InvalidCommandException(
-                "borrower '" +borrower+ "'does not currently hold '" +title+ "'");
+                "borrower '" +borrower+ "' does not currently hold '" +title+ "'");
         }
         
         if(records.isEmpty()) {

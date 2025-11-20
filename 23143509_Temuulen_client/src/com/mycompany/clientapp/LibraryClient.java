@@ -29,7 +29,7 @@ public class LibraryClient {
             System.out.println("  borrow; Name; Date; Title");
             System.out.println("  return; Name; Date; Title");
             System.out.println("  list; Name; -; -");
-            System.out.println("  import; <public-URL-to-loans.txt>");
+            System.out.println("  example import - import; https://raw.githubusercontent.com/Temuulen-Munkhtaivan/Library_Borrow_System/refs/heads/main/loans.txt");
             System.out.println("  STOP\n");
 
             while (true) {
